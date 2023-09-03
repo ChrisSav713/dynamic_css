@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  min-height: 300px;
+}
+.red {
+  background: orangered;
+  flex-grow: 1;
+}
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+}
+.container > div {
+  font-size: 5vw;
+  padding: 0.5em;
+  color: white;
+}
